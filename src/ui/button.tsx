@@ -22,7 +22,8 @@ const button = cva(['font-medium', 'py-2.5', 'px-3.5', 'rounded-md'], {
   },
 })
 
-// CVAを利用してバリアントを取得する方法
+// バリアント...異なるデータ型を単一の型として扱うことができるデータ構造
+// Class Variance Authority (CVA)を利用してバリアントを取得する方法
 type Props = VariantProps<typeof button>
 
 // asが指定されていない場合のデフォルト要素を定義する
