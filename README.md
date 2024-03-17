@@ -1,6 +1,6 @@
-# react-ts-polymorphic-components
+# vite, react, typescript, Tailwind, cva
 
-関連記事：[React(TypeScript)でSOLIDの原則を心で理解する](https://zenn.dev/andmorefine/articles/d9ca963da8e59a)
+関連記事：[React、Typescript、CVA、TailwindCSSを使ってポリモーフィックコンポーネントなボタンを作成する](https://qiita.com/andmorefine/items/75415e6f4f842af15fd6)
 
 ## インストール
 
