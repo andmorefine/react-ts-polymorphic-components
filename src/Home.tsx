@@ -20,7 +20,11 @@ export const Home = () => {
           <Button>button</Button>
         </section>
         <section className="space-x-4 flex">
-          <Button as={undefined} href={'/test'} intent={'secondary'}>
+          <Button
+            as={'button'}
+            onClick={() => (location.href = '/test')}
+            intent={'secondary'}
+          >
             internal link
           </Button>
           <Button
@@ -35,7 +39,11 @@ export const Home = () => {
           <Button intent={'secondary'}>button</Button>
         </section>
         <section className="space-x-4 flex">
-          <Button as={undefined} href={'/test'} intent={'ghost'}>
+          <Button
+            as={'button'}
+            onClick={() => (location.href = '/test')}
+            intent={'ghost'}
+          >
             internal link
           </Button>
           <Button
