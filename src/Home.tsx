@@ -7,7 +7,7 @@ export const Home = () => {
       <div className="space-y-10">
         <section className="space-x-4 flex">
           <Button as={'a'} href={'/test'}>
-            internal link
+            内部 リンク
           </Button>
           <Button
             as={'a'}
@@ -15,9 +15,9 @@ export const Home = () => {
             rel="noreferrer"
             target="_blank"
           >
-            external link
+            外部 リンク
           </Button>
-          <Button>button</Button>
+          <Button>ボタン</Button>
         </section>
         <section className="space-x-4 flex">
           <Button
@@ -25,7 +25,7 @@ export const Home = () => {
             onClick={() => (location.href = '/test')}
             intent={'secondary'}
           >
-            internal link
+            内部 リンク
           </Button>
           <Button
             as={'a'}
@@ -34,9 +34,9 @@ export const Home = () => {
             target="_blank"
             intent={'secondary'}
           >
-            external link
+            外部 リンク
           </Button>
-          <Button intent={'secondary'}>button</Button>
+          <Button intent={'secondary'}>ボタン</Button>
         </section>
         <section className="space-x-4 flex">
           <Button
@@ -44,7 +44,7 @@ export const Home = () => {
             onClick={() => (location.href = '/test')}
             intent={'ghost'}
           >
-            internal link
+            内部 リンク
           </Button>
           <Button
             as={'a'}
@@ -53,9 +53,9 @@ export const Home = () => {
             target="_blank"
             intent={'ghost'}
           >
-            external link
+            外部 リンク
           </Button>
-          <Button intent={'ghost'}>button</Button>
+          <Button intent={'ghost'}>ボタン</Button>
         </section>
       </div>
     </main>
